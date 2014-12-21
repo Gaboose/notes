@@ -9,4 +9,12 @@ SC-1258TG: 90deg ~= ((4782 +- 86) - (8577 +- 86)) * 0.25us = 948us +- 43us
 # in ros_pololu_servo angles #
 (3280, 8700) <-> (-pi/2, pi/2)
 
-1: -0.3 - ???
+1: -0.2, 0.0, 1.5
+2: -1.4, 0.0, 1.3 #don't move while the jaw is closed
+3: -0.9, 0.1, 1.5 #don't move while the jaw is closed
+4: -0.7 0.1 0.9
+5: -0.8 0.0 0.8
+6: -0.3 0.3 1.4
+7: -1.35 -0.02 0.65
+8: (-0.2 #when everythings default, -0.5 #no obstructions) 0.3 0.6
+9: -1.1 0.0 1.1
